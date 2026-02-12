@@ -1,15 +1,15 @@
 const skillCategories = [
   {
-    title: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "HTML/CSS"],
+    title: "Frontend & UX Engineering",
+    skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "HTML/CSS", "Responsive Design", "API Integration", "Firebase", "Figma", "Wireframing", "Prototyping", "Accessibility"],
   },
   {
-    title: "UX / Design",
-    skills: ["Figma", "UI Design", "Responsive Design", "Accessibility", "User Research", "Prototyping"],
+    title: "Data, AI & Simulation",
+    skills: ["Python", "Pandas", "Data Analysis", "Jupyther Notebook", "MongoDB", "Data Preprocessing","Plotly Dash", "Data Visualization", "Evaluation Metrics", "Reinforcement Learning (DQN)", "Multi-Agent Simulation"],
   },
   {
-    title: "Data / Tools",
-    skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Git", "Docker", "REST APIs"],
+    title: "Tools & Workflow",
+    skills: ["Git", "Version Control", "VS COde", "Agile Methilogies", "Debugging", "Techincal Documentation"],
   },
 ];
 

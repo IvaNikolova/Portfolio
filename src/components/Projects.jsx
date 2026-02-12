@@ -17,7 +17,8 @@ const projects = [
       "Reinforcement Learning", 
       "Data Simulation",
       "Geospatial Data",
-      "Data Visualization"
+      "Data Visualization",
+      "Analytical Thinking"
     ],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
@@ -46,9 +47,9 @@ const projects = [
     description:
       "A combined calendar and daily task planner that lets users manage scheduled events and flexible day-based to-do items in a single interface.",
     details:
-      "Supports both time-based events and no-time daily tasks with unified state handling and a productivity-focused UX layout.",
+      "Designed and implemented a productivity app that merges calendar scheduling with per-day to-do lists, allowing users to track timed events and non-time-specific tasks together for better daily planning.",
     techTags: ["React", "JavaScript/TypeScript", "UI Design"],
-    techStack: ["React", "Local Storage", "UI/UX Design", "Date Logic", "Figma"],
+    techStack: ["React","JavaScript/TypeScript", "Local Storage", "UI/UX Design", "Date Logic", "Figma"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },

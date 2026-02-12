@@ -1,27 +1,21 @@
 const timeline = [
   {
-    year: "2023 - Present",
-    title: "Frontend / UX Developer",
-    company: "Your Current Focus",
-    description: "Building modern web apps and UX-focused interfaces.",
-  },
-  {
-    year: "2022 - 2023",
-    title: "Data & Simulation Projects",
-    company: "Academic / Personal",
-    description: "Worked on bike-sharing simulation and MARL optimization.",
+    year: "2023 - 2025",
+    title: "Master’s in Informatics and Computing Engineering",
+    company: "University of Porto, Porto, Portugal",
+    description: "Specialized in AI and analytics through a thesis on bike-sharing optimization systems.",
   },
   {
     year: "2021 - 2022",
-    title: "Web Development Learning",
-    company: "Self-driven",
-    description: "React, JS, Tailwind, UI/UX foundations.",
+    title: "Internship",
+    company: "InsInCloud, Varna, Bulgaria",
+    description: "Completed a frontend internship building and improving React-based web application interfaces.",
   },
   {
-    year: "Education",
-    title: "Your Degree",
-    company: "University",
-    description: "Add your real program here.",
+    year: "2018 - 2022",
+    title: "Bachelor's in Software and Internet Technologies",
+    company: "Technical University of Varna, Varna, Bulgaria",
+    description: "Built strong web technology foundations through coursework and a user-focused thesis project.",
   },
 ];
 
@@ -37,20 +31,19 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I'm a passionate developer with over 4 years of experience building
-                web applications. I love creating elegant solutions to complex problems
-                and am always eager to learn new technologies.
+                I’m a frontend-focused developer with a strong interest in data analytics and intelligent systems, passionate about
+                building interactive, user-centered web applications. I enjoy turning complex ideas and data-driven concepts into clean,
+                practical, and well-designed solutions, and I’m always motivated to keep learning and improving my skills.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new hiking trails,
-                reading about emerging tech trends, or contributing to open-source
-                projects. I believe in continuous learning and sharing knowledge
-                with the developer community.
+                My recent projects include data-driven simulations, AI-based recommendation features, and modern React applications, 
+                where I combine analytical thinking with UI and UX principles. I like working where interface design, logic, and 
+                data meet to create useful and intuitive products.
               </p>
               <p>
-                My approach to development focuses on writing clean, maintainable
-                code while delivering exceptional user experiences. I'm particularly
-                interested in performance optimization and accessibility.
+                When I’m not coding, you can find me diving, exploring new tech concepts, or refining project ideas and prototypes.
+                I value continuous learning, adaptability, and clear communication, and I work best in collaborative environments 
+                where problem-solving and critical thinking are encouraged.
               </p>
             </div>
           </div>
