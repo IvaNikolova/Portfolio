@@ -63,7 +63,7 @@ function Hero() {
               {/* Image */}
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-green-200 shadow-2xl">
                 <img
-                  src="src/images/CV_photo.jpg"
+                  src="/CV_photo.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
