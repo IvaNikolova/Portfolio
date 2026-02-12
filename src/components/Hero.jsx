@@ -1,6 +1,6 @@
 import { ArrowRight, Mail } from "lucide-react";
 
-function Hero() {
+export default function Hero() {
   const scrollToSection = (href) => {
     const element = document.querySelector(href);
     if (element) {
@@ -85,4 +85,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+

@@ -2,50 +2,53 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Smart Bike Sharing Simulation",
     description:
-      "A full-featured online store with cart, payments, and admin dashboard.",
+      "A data-driven bike-sharing simulation that uses historical trip and weather data with multi-agent DQN reinforcement learning to predict demand and optimize bike redistribution between stations.",
     details:
-      "Complete e-commerce solution with authentication, product management, order tracking, and Stripe integration.",
-    techTags: ["React", "Node.js", "MongoDB"],
+      "Implements station-level RL agents, demand-aware redistribution windows, and interactive Dash visualizations to evaluate availability, missed trips, and system balance.",
+    techTags: ["Python", "MARL", "DQN", "Plotly Dash", "Simulation"],
+    techStack: [
+      "Python",
+      "Pandas",
+      "Plotly Dash",
+      "MARL",
+      "DQN",
+      "Reinforcement Learning", 
+      "Data Simulation",
+      "Geospatial Data",
+      "Data Visualization"
+    ],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com",
+  },
+  {
+    title: "FilmVault",
+    description:
+      "A TMDB-based movie browsing app where users save films to a wishlist and receive personalized recommendations based on their saved preferences.",
+    details:
+      "Includes authenticated user profiles, persistent cloud-stored wishlists, and recommendation logic derived from user-selected movie patterns.",
+    techTags: ["React", "TypeScript", "Firebase", "TMDB API"],
     techStack: [
       "React",
-      "Redux",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Stripe",
-      "Tailwind",
-    ],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "Collaborative project management tool with real-time updates.",
-    details:
-      "Kanban-style boards with drag-and-drop, collaboration, file uploads, and chat.",
-    techTags: ["Next.js", "TypeScript", "Prisma"],
-    techStack: [
-      "Next.js",
       "TypeScript",
-      "Prisma",
-      "PostgreSQL",
-      "Socket.io",
-      "AWS S3",
+      "Firebase Auth",
+      "Firestore",
+      "TMDB API",
+      "Tailwind CSS",
+      "Responsive Design",
     ],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },
   {
-    title: "AI Content Generator",
+    title: "Calendar Web App",
     description:
-      "Smart content creation tool powered by AI APIs and templates.",
+      "A combined calendar and daily task planner that lets users manage scheduled events and flexible day-based to-do items in a single interface.",
     details:
-      "AI writing assistant with multiple content types and export options.",
-    techTags: ["Python", "FastAPI", "React"],
-    techStack: ["Python", "FastAPI", "React", "OpenAI", "Redis", "Docker"],
+      "Supports both time-based events and no-time daily tasks with unified state handling and a productivity-focused UX layout.",
+    techTags: ["React", "JavaScript/TypeScript", "UI Design"],
+    techStack: ["React", "Local Storage", "UI/UX Design", "Date Logic", "Figma"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },

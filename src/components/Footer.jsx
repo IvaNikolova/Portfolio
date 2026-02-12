@@ -27,6 +27,7 @@ const socialLinks = [
     ),
   },
 ];
+
 export default function Footer() {
   return (
     <footer className="py-12 border-t border-border">

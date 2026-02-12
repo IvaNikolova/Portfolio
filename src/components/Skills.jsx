@@ -1,7 +1,7 @@
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "HTML/CSS", "Redux", "Vue.js"],
+    skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "HTML/CSS"],
   },
   {
     title: "UX / Design",
@@ -9,7 +9,7 @@ const skillCategories = [
   },
   {
     title: "Data / Tools",
-    skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Git", "Docker", "AWS", "REST APIs"],
+    skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Git", "Docker", "REST APIs"],
   },
 ];
 

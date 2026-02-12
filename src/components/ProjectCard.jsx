@@ -6,7 +6,7 @@ function ProjectCard({ project }) {
 
   return (
     <div
-      className="relative h-80 cursor-pointer perspective-1000"
+      className="relative h-85 cursor-pointer perspective-1000"
       onClick={() => setIsFlipped(!isFlipped)}
     >
       <div
