@@ -14,16 +14,16 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
           {/* Text Content */}
-          <div className="flex-1 text-center lg:text-left">
+          <div className="flex-1 text-center lg:text-left order-2 lg:order-">
             <p className="text-primary font-medium mb-4 tracking-wide">
               Hello, I'm
             </p>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tigh">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               Iva Nikolova
             </h1>
 
-            <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxe">
+            <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               A passionate developer specializing in building modern digital
               experiences. I love turning complex problems into simple,
               beautiful solutions.
@@ -54,14 +54,14 @@ export default function Hero() {
           </div>
 
           {/* Profile Image */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 order-1 lg:order-2">
             <div className="relative">
 
               {/* Glow ring */}
               <div className="absolute inset-0 rounded-full bg-green-400/20 blur-2xl scale-110" />
 
               {/* Image */}
-              <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-green-200 shadow-2xl">
+              <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-green-900 shadow-2xl">
                 <img
                   src="/CV_photo.jpg"
                   alt="Profile"

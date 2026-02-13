@@ -33,7 +33,7 @@ function ProjectCard({ project }) {
             {project.techTags.map((tag) => (
               <span
                 key={tag}
-                className="px-3 py-1.5 text-sm font-medium bg-green-100 text-green-700 rounded-lg hover:bg-green-200 transition cursor-default"
+                className="px-3 py-1 text-xs font-medium bg-green-950 text-primary rounded-full transition cursor-default"
               >
                 {tag}
               </span>
@@ -90,7 +90,7 @@ function ProjectCard({ project }) {
               GitHub
             </button>
 
-            <button
+            {/* <button
               onClick={(e) => {
                 e.stopPropagation();
                 window.open(project.liveUrl, "_blank");
@@ -99,7 +99,7 @@ function ProjectCard({ project }) {
               >
               <ExternalLink className="h-4 w-4" />
               Live Demo
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

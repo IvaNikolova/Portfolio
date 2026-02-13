@@ -53,8 +53,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">LinkedIn</p>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
-                    linkedin.com/in/
+                  <a href="https://www.linkedin.com/in/iva-nikolova-ba5626127/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
+                    linkedin.com/in/iva-nikolova
                   </a>
                 </div>
               </div>
@@ -107,7 +107,8 @@ export default function Contact() {
               </div>
               <button
                 type="submit"
-                className="w-full px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors"
+                className="w-full px-6 py-3 rounded-lg bg-green-600 text-white hover:bg-green-700 transition group"
+                // inline-flex items-center justify-center px-6 py-3 text-lg font-medium rounded-xl bg-green-600 text-white hover:bg-green-700 transition group
               >
                 Send Message
               </button>

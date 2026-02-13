@@ -20,7 +20,7 @@ const projects = [
       "Data Visualization",
       "Analytical Thinking"
     ],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/IvaNikolova/BikeSharing_project",
     liveUrl: "https://example.com",
   },
   {
@@ -39,7 +39,7 @@ const projects = [
       "Tailwind CSS",
       "Responsive Design",
     ],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/IvaNikolova/FilmVault",
     liveUrl: "https://example.com",
   },
   {
@@ -50,14 +50,14 @@ const projects = [
       "Designed and implemented a productivity app that merges calendar scheduling with per-day to-do lists, allowing users to track timed events and non-time-specific tasks together for better daily planning.",
     techTags: ["React", "JavaScript/TypeScript", "UI Design"],
     techStack: ["React","JavaScript/TypeScript", "Local Storage", "UI/UX Design", "Date Logic", "Figma"],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/IvaNikolova/calendar-desktop-app",
     liveUrl: "https://example.com",
   },
 ];
 
 function Projects() {
   return (
-    <div className="py-20 bg-accent/30">
+    <div className="py-20 bg-accent">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
