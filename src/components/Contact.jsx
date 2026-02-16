@@ -1,23 +1,42 @@
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
+
 export default function Contact() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [status, setStatus] = useState(null); // "success" | "error" | null
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (!formData.name || !formData.email || !formData.message) {
       setStatus("error");
       return;
     }
-    // TODO: Integrate with EmailJS or your preferred email service
-    // Example: emailjs.send('service_id', 'template_id', formData, 'public_key')
-    console.log("Form submitted:", formData);
-    setStatus("success");
-    setFormData({ name: "", email: "", message: "" });
-    setTimeout(() => setStatus(null), 4000);
+
+    emailjs
+      .send(
+        "service_6o3ccv6",
+        "template_450925b",
+        {
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        },
+        "3eLkgZuNnRs6C0jm_"
+      )
+      .then(() => {
+        setStatus("success");
+        setFormData({ name: "", email: "", message: "" });
+        setTimeout(() => setStatus(null), 4000);
+      })
+      .catch(() => {
+        setStatus("error");
+      });
   };
+
   return (
     <div className="py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

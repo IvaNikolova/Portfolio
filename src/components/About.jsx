@@ -41,9 +41,8 @@ export default function About() {
                 data meet to create useful and intuitive products.
               </p>
               <p>
-                When I’m not coding, you can find me diving, exploring new tech concepts, or refining project ideas and prototypes.
-                I value continuous learning, adaptability, and clear communication, and I work best in collaborative environments 
-                where problem-solving and critical thinking are encouraged.
+                When I’m not coding, you can find me diving, exploring new tech, or refining prototypes. After 7 years of synchronized 
+                swimming, I bring strong teamwork, discipline, and collaboration skills, and I thrive in problem-solving environments.
               </p>
             </div>
           </div>
@@ -53,7 +52,7 @@ export default function About() {
               Experience & Education
             </h3>
             <div className="relative">
-              <div className="absolute left-3 top-2 bottom-2 w-0.5 bg-border" />
+              <div className="absolute left-3 top-0 h-full w-0.05 border-1 bg-border rounded-full" />
               <div className="space-y-6">
                 {timeline.map((item, index) => (
                   <div key={index} className="relative pl-10">
