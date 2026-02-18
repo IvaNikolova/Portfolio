@@ -6,11 +6,11 @@ function ProjectCard({ project }) {
 
   return (
     <div
-      className="relative h-90 cursor-pointer perspective-1000"
+      className="relative h-full cursor-pointer perspective-1000"
       onClick={() => setIsFlipped(!isFlipped)}
     >
       <div
-        className={`relative w-full h-full transition-transform duration-500 transform-style-3d`}
+        className={`relative h-full w-full transition-transform duration-500 transform-style-3d`}
         style={{
           transformStyle: "preserve-3d",
           transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
@@ -18,14 +18,14 @@ function ProjectCard({ project }) {
       >
         {/* FRONT */}
         <div
-          className="absolute inset-0 bg-card border border-border rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow backface-hidden"
+          className="absolute inset-0 bg-card border border-border rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow backface-hidden flex flex-col"
           style={{ backfaceVisibility: "hidden" }}
         >
-          <h3 className="text-xl font-semibold text-foreground mb-3">
+          <h3 className="text-xl font-semibold text-foreground mb-3 break-words">
             {project.title}
           </h3>
 
-          <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+          <p className="text-muted-foreground text-sm leading-relaxed mb-6 break-words">
             {project.description}
           </p>
 
@@ -40,24 +40,26 @@ function ProjectCard({ project }) {
             ))}
           </div>
 
-          <p className="absolute bottom-4 left-6 text-xs text-muted-foreground">
-            Click to see more →
-          </p>
+          <div className="mt-auto pt-4">
+            <p className="text-xs text-muted-foreground">
+              Click to see more →
+            </p>
+          </div>
         </div>
 
         {/* BACK */}
         <div
-          className="absolute inset-0 bg-card border border-border rounded-xl p-6 shadow-lg backface-hidden"
+          className="relative h-full inset-0 bg-card border border-border rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow backface-hidden flex flex-col"
           style={{
             backfaceVisibility: "hidden",
             transform: "rotateY(180deg)",
           }}
         >
-          <h3 className="text-lg font-semibold text-foreground mb-3">
+          <h3 className="text-xl font-semibold text-foreground mb-3 break-words">
             {project.title}
           </h3>
 
-          <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+          <p className="text-muted-foreground text-sm leading-relaxed mb-6 break-words">
             {project.details}
           </p>
 
@@ -78,7 +80,7 @@ function ProjectCard({ project }) {
             </div>
           </div>
 
-          <div className="absolute bottom-4 left-6 right-6 flex gap-3">
+          <div className="mt-auto pt-4 flex gap-3">
             <button
               onClick={(e) => {
                 e.stopPropagation();

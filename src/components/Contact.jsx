@@ -11,8 +11,19 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!formData.name || !formData.email || !formData.message) {
-      setStatus("error");
+    const name = formData.name.trim();
+    const email = formData.email.trim();
+    const message = formData.message.trim();
+
+    if (!name || !email || !message) {
+      setStatus("Please fill in all fields.");
+      return;
+    }
+
+    // Email format validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setStatus("Please enter a valid email address.");
       return;
     }
 
@@ -21,9 +32,9 @@ export default function Contact() {
         "service_6o3ccv6",
         "template_450925b",
         {
-          name: formData.name,
-          email: formData.email,
-          message: formData.message,
+          name,
+          email,
+          message,
         },
         "3eLkgZuNnRs6C0jm_"
       )
@@ -33,9 +44,10 @@ export default function Contact() {
         setTimeout(() => setStatus(null), 4000);
       })
       .catch(() => {
-        setStatus("error");
+        setStatus("Failed to send. Please try again.");
       });
   };
+
 
   return (
     <div className="py-20">
@@ -134,8 +146,8 @@ export default function Contact() {
               {status === "success" && (
                 <p className="text-sm text-primary text-center">Message sent successfully!</p>
               )}
-              {status === "error" && (
-                <p className="text-sm text-red-500 text-center">Please fill in all fields.</p>
+              {status && status !== "success" && (
+                <p className="text-sm text-red-500 text-center">{status}</p>
               )}
             </form>
           </div>
