@@ -24,9 +24,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              A passionate developer specializing in building modern digital
-              experiences. I love turning complex problems into simple,
-              beautiful solutions.
+              Frontend & Data Science Developer creating modern, data-driven web applications with clean design and analytical precision.
             </p>
 
             {/* Buttons */}

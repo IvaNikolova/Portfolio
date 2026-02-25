@@ -1,15 +1,47 @@
 const skillCategories = [
   {
-    title: "Frontend & UX Engineering",
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "HTML/CSS", "Responsive Design", "API Integration", "Firebase", "Figma", "Wireframing", "Prototyping", "Accessibility"],
+    title: "Frontend Development & UX/UI",
+    skills: ["React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Responsive Design",
+    "Component-Based Architecture",
+    "State Management",     "Accessibility",
+
+    "API Integration (REST)",
+    "Figma",
+    "Wireframing",
+    "Prototyping"],
   },
   {
-    title: "Data, AI & Simulation",
-    skills: ["Python", "Pandas", "Data Analysis", "Jupyther Notebook", "MongoDB", "Data Preprocessing","Plotly Dash", "Data Visualization", "Evaluation Metrics", "Reinforcement Learning (DQN)", "Multi-Agent Simulation"],
+    title: "Data Science, AI & Analytics",
+    skills: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Data Cleaning & Preprocessing",
+    "Data Analysis", "Jupyter Notebook",
+    "Data Visualization (Plotly, Dash)",
+    "Reinforcement Learning (DQN)",
+    "Machine Learning", "Evaluation Metrics",
+    "Simulation Modeling",
+    
+  ],
   },
   {
     title: "Tools & Workflow",
-    skills: ["Git", "Version Control", "VS COde", "Agile Methilogies", "Debugging", "Techincal Documentation"],
+    skills: ["Git",
+    "GitHub",
+    "Version Control",
+    "Agile Methodologies",
+    "VS Code",
+    "Debugging",
+    "Technical Documentation",
+    "Cross-Functional Collaboration"],
   },
 ];
 

@@ -31,9 +31,10 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I’m a frontend-focused developer with a strong interest in data analytics and intelligent systems, passionate about
-                building interactive, user-centered web applications. I enjoy turning complex ideas and data-driven concepts into clean,
-                practical, and well-designed solutions, and I’m always motivated to keep learning and improving my skills.
+                I’m a Frontend Developer and Data Science enthusiast passionate about building interactive, user-centered web applications 
+                powered by data-driven insights. I combine modern frontend technologies with analytical thinking to transform complex data 
+                and ideas into clean, practical, and well-designed digital solutions. I’m continuously motivated to deepen my expertise across
+                 both development and data to create intelligent and impactful products.
               </p>
               <p>
                 My recent projects include data-driven simulations, AI-based recommendation features, and modern React applications, 
