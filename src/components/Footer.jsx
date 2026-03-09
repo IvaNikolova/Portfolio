@@ -26,6 +26,17 @@ const socialLinks = [
       </svg>
     ),
   },
+  {
+    label: "Google Analytics Certificate",
+    href: "/Google_Analyics_Certification.pdf",
+    icon: (
+      <img
+        src="/Google_badge.png"
+        alt="Google Analytics Certificate"
+        className="h-10 w-10 object-contain rounded-full"      
+      />
+    ),
+  },
 ];
 
 export default function Footer() {
